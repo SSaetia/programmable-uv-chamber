@@ -1,5 +1,6 @@
 # Programmable Photopolymerization Chamber
 ### Irradiance Profiling for Stress-Free Curing
+!(photo/programmable-uv-chamber.png)
 
 ## 🚧 Safety Notice
 
@@ -39,7 +40,7 @@ The firmware includes a library structure that allows for the development of spe
 
 * `/lib` Libraries
 * `/example` Programming examples
-* `/photos` Assembly and prototype images
+* `/photo` Assembly and prototype images
 
 ## 🛠️ Hardware
 
