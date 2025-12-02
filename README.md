@@ -2,13 +2,13 @@
 ### Irradiance Profiling for Stress-Free Curing
 ![](photo/programmable-uv-chamber.jpg)
 
-## 🚧 Safety Notice
-
-This system involves high-intensity UV radiation (405nm). Always wear appropriate UV-blocking eyewear during operation. Ensure the enclosure is light-tight before activation. This project is intended strictly for experimental and educational use; users are responsible for ensuring safe operation in their own implementations.
-
 ## 📌 Project Overview
 
 This project involves the development of a high-precision, programmable UV photopolymerization chamber designed to address the limitations of conventional fixed-irradiance curing systems. By integrating a microcontroller-based regulation system (Raspberry Pi Pico), this instrument enables dynamic irradiance profiling (e.g., ramp, step, and pulse modes). This capability is critical for controlling polymerization kinetics, thereby mitigating exothermic spikes and shrinkage stress, which are the primary causes of voids and micro-cracks in sensitive photopolymer resins.
+
+## 🔌 Wiring Diagram
+
+![](photo/wiring_diagram.png)
 
 ## ⚙️ System Description
 
@@ -31,10 +31,15 @@ The firmware includes a library structure that allows for the development of spe
 * **Integrated Safety Interlock:** Automatic cutoff and visual warning system to prevent accidental UV exposure.
 * **Programmable Cycling:** Customizable loop setup for ramp, step, and pulse curing profiles.
 
-## 🔌 Wiring Diagram
+## 🧪 Applications
 
-![Wiring Diagram](docs/wiring_diagram.png)
-*(Note: Upload your wiring diagram image to a 'docs' folder and verify the path)*
+* Post-curing of SLA/DLP 3D printed parts
+* Material science research (polymerization stress testing)
+* Sterilization and cleaning protocols
+
+## 🚧 Safety Notice
+
+This system involves high-intensity UV radiation (405nm). Always wear appropriate UV-blocking eyewear during operation. Ensure the enclosure is light-tight before activation. This project is intended strictly for experimental and educational use; users are responsible for ensuring safe operation in their own implementations.
 
 ## 📂 Repository Structure
 
@@ -48,12 +53,6 @@ The firmware includes a library structure that allows for the development of spe
 * **MCU Interface:** Raspberry Pi Pico (Pi interface)
 * **Sensors:** Limit switch (Door Safety)
 * **Actuators:** 405nm UV LED Array
-
-## 🧪 Applications
-
-* Post-curing of SLA/DLP 3D printed parts
-* Material science research (polymerization stress testing)
-* Sterilization and cleaning protocols
 
 ## 📖 License
 
