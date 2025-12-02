@@ -1,6 +1,6 @@
 # Programmable Photopolymerization Chamber
 ### Irradiance Profiling for Stress-Free Curing
-!(photo/programmable-uv-chamber.png)
+(photo/programmable-uv-chamber.png)
 
 ## 🚧 Safety Notice
 
